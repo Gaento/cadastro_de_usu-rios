@@ -16,10 +16,10 @@ class User:
 class UserManager:
     def __init__(self):
         self.db = mysql.connector.connect(
-            host="127.0.0.1",
-            user="root",
+            host="",
+            user="",
             password="",
-            database="user_system"
+            database=""
         )
         self.cursor = self.db.cursor()
 
